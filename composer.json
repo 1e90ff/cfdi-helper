@@ -1,0 +1,25 @@
+{
+    "name": "1e90ff/cfdi-helper",
+    "description": "A library for data extraction and validation of status and integrity of mexican CFDI.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "_1e90ff\\CfdiHelper\\": "src/",
+            "_1e90ff\\CfdiHelper\\Utils\\": "src/utils/",
+            "_1e90ff\\CfdiHelper\\Exceptions\\": "src/exceptions/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ulises Lopez",
+            "email": "ulises@1e90ff.net"
+        }
+    ],
+    "require": {
+        "genkgo/xsl": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
